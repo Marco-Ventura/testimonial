@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import TestimonyComponent from './components/testimony';'./components/testimony.js'
 
 function App() {
   return (
@@ -17,6 +18,11 @@ function App() {
         >
           Learn React
         </a>
+        <div>
+        <TestimonyComponent/>
+        </div>
+        
+
       </header>
     </div>
   );
