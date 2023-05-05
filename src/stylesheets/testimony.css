@@ -1,0 +1,27 @@
+.testimony-picture{
+  height: 100%;
+  width: 400px;
+}
+
+.testimony-container{
+  max-width: 1300px;
+  display: flex;
+  background-color: black ;
+  max-height: 270px;
+
+}
+
+.testimony-text{
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+.name {
+  padding-bottom: 10px;
+  padding-top: 15px;
+}
