@@ -1,5 +1,5 @@
 .testimony-picture{
-  height: 100%;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   width: 400px;
 }
 
@@ -8,12 +8,17 @@
   display: flex;
   background-color: black ;
   max-height: 270px;
+  box-shadow: -5px 5px 5px rgba(255, 255, 255, 0.5),
+              5px -5px 5px rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  margin-bottom: 80px;
 
 }
 
 .testimony-text{
   display: flex;
   flex-direction: column;
+  
 }
 
 p {
